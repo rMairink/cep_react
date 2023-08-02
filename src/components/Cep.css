@@ -1,0 +1,61 @@
+.cep{
+    width: 600px;
+    height: 640px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.cep .cepTitle{
+    text-align: center;
+    margin-bottom: 25px;;
+    color: #4b4b4b;
+}
+
+.cep .error{
+    font-size: 14px;
+    text-align: center;
+    background-color: #f82222af;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.searchCep{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.inputCep{
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding-left: 8px;;
+}
+
+.cepInformation {
+    margin: 20px 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.cepInformation .item{
+    /* background-color: #ffc0cb; */
+    width: 100%;
+    height: 100%;
+}
+
+.item span{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    background-color: #fff;
+}
